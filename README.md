@@ -11,4 +11,4 @@ De load flow berekeningen op het net worden gedaan met een koppeling naar pandap
 ![afbeelding](https://github.com/ZEnMo/Nederland-hoogspanningsnet/assets/38351577/90b36b17-8047-4bb6-b773-815b952edd4f)
 
 ## Cloud version
-Het is <u>niet</u> mogelijk om dit model in de cloud te laten runnen door de dependencies richting python
+Het is <ins>niet</ins> mogelijk om dit model in de cloud te laten runnen door de dependencies richting python
