@@ -137,7 +137,9 @@ gisRoute6a.setVisible(false);
 gisRoute6b.setVisible(false);
 gisRoute6c.setVisible(false);
 gisRoute6d.setVisible(false);
-gisRoute6e.setVisible(false);]]></StartupCode>
+gisRoute6e.setVisible(false);
+
+areaMain.navigateTo();]]></StartupCode>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1585133588993</Id>
@@ -200,7 +202,7 @@ gisRoute6e.setVisible(false);]]></StartupCode>
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1585209600000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -16899,7 +16901,7 @@ averageWindSpeedOffshoreArray.clear();
 					<LineMaterial>null</LineMaterial>
 					<LineStyle>SOLID</LineStyle>
 					<Width>520</Width>
-					<Height>450</Height>
+					<Height>320</Height>
 					<Rotation>0.0</Rotation>
 					<FillColor>-2368524</FillColor>
 					<FillMaterial>null</FillMaterial>
@@ -16945,7 +16947,7 @@ averageWindSpeedOffshoreArray.clear();
 					<LineMaterial>null</LineMaterial>
 					<LineStyle>SOLID</LineStyle>
 					<Width>520</Width>
-					<Height>400</Height>
+					<Height>270</Height>
 					<Rotation>0.0</Rotation>
 					<FillColor>-657924</FillColor>
 					<FillMaterial>null</FillMaterial>
@@ -17351,15 +17353,15 @@ averageWindSpeedOffshoreArray.clear();
 				<GISMap>
 					<Id>1585133644104</Id>
 					<Name><![CDATA[mapGISNL]]></Name>
-					<X>-60</X><Y>0</Y>
+					<X>50</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>1420</Width>
-					<Height>1080</Height>
+					<Width>1310</Width>
+					<Height>980</Height>
 					<GISShapes>
 						<GISShapeFile>
 							<ShapeResourceReference>
@@ -20730,7 +20732,7 @@ averageWindSpeedOffshoreArray.clear();
 				<Rectangle>
 					<Id>1588705538395</Id>
 					<Name><![CDATA[menuSupplyOpen]]></Name>
-					<X>-140</X><Y>50</Y>
+					<X>-20</X><Y>50</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -20978,7 +20980,7 @@ averageWindSpeedOffshoreArray.clear();
 				<Group>
 					<Id>1588706047890</Id>
 					<Name><![CDATA[menuClosed]]></Name>
-					<X>-50</X><Y>540</Y>
+					<X>70</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21014,102 +21016,6 @@ averageWindSpeedOffshoreArray.clear();
 			</Presentation>
 
 				</Group>
-				<RoundedRectangle>
-					<Id>1588707126173</Id>
-					<Name><![CDATA[roundRectangle]]></Name>
-					<X>-60</X><Y>58</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-4144960</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>180</Width>
-					<Height>122</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
-				<RoundedRectangle>
-					<Id>1588707234315</Id>
-					<Name><![CDATA[roundRectangle1]]></Name>
-					<X>-62</X><Y>490</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-4144960</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>180</Width>
-					<Height>70</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
-				<RoundedRectangle>
-					<Id>1588707237998</Id>
-					<Name><![CDATA[roundRectangle2]]></Name>
-					<X>-62</X><Y>670</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-4144960</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>180</Width>
-					<Height>170</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
-				<RoundedRectangle>
-					<Id>1588707256866</Id>
-					<Name><![CDATA[roundRectangle4]]></Name>
-					<X>-62</X><Y>860</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-4144960</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>180</Width>
-					<Height>220</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
 				<Rectangle>
 					<Id>1588707308547</Id>
 					<Name><![CDATA[rectangle2]]></Name>
@@ -21369,73 +21275,10 @@ averageWindSpeedOffshoreArray.clear();
 					<FillColor>682673374</FillColor>
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
-				<Group>
-					<Id>1588708432798</Id>
-					<Name><![CDATA[buttonSupply]]></Name>
-					<X>205</X><Y>30</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
-					<OnClickCode><![CDATA[areaSupplyDemand.navigateTo();]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-				<RoundedRectangle>
-					<Id>1588708392060</Id>
-					<Name><![CDATA[roundRectangle9]]></Name>
-					<X>-80</X><Y>-20</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-16777216</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>160</Width>
-					<Height>30</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
-				<Text>
-					<Id>1588708400794</Id>
-					<Name><![CDATA[text27]]></Name>
-					<X>-50</X><Y>-10</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Supply & Demand]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>10</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-			</Presentation>
-
-				</Group>
 				<Rectangle>
 					<Id>1588709624545</Id>
 					<Name><![CDATA[wind6]]></Name>
-					<X>-120</X><Y>0</Y>
+					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21449,74 +21292,11 @@ averageWindSpeedOffshoreArray.clear();
 					<LineMaterial>null</LineMaterial>
 					<LineStyle>SOLID</LineStyle>
 					<Width>50</Width>
-					<Height>1080</Height>
+					<Height>980</Height>
 					<Rotation>0.0</Rotation>
 					<FillColor>-1</FillColor>
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
-				<Group>
-					<Id>1588710007144</Id>
-					<Name><![CDATA[buttonMain1]]></Name>
-					<X>30</X><Y>30</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
-					<OnClickCode><![CDATA[areaMain.navigateTo();]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-				<RoundedRectangle>
-					<Id>1588710007146</Id>
-					<Name><![CDATA[roundRectangle13]]></Name>
-					<X>-80</X><Y>-20</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-1778384896</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>160</Width>
-					<Height>30</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1761607681</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
-				<Text>
-					<Id>1588710007148</Id>
-					<Name><![CDATA[text31]]></Name>
-					<X>-10</X><Y>-10</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-1778384896</Color>
-					<Text><![CDATA[Main]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>10</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-			</Presentation>
-
-				</Group>
 				<EmbeddedObjectPresentation>
 					<Id>1588769228954</Id>
 					<Name><![CDATA[gasPowerPlants_presentation]]></Name>
@@ -21990,283 +21770,6 @@ Wind offshore:]]></Text>
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
-				<Image>
-					<Id>1589181761519</Id>
-					<Name><![CDATA[image2]]></Name>
-					<X>-118</X><Y>59</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
-if (menuSupplyOpen.isVisible()){
-	supplyMenuOnOff = true;
-}
-else{
-	supplyMenuOnOff = false;
-}
-]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Width>45</Width>
-					<Height>45</Height>
-					<Rotation>0.0</Rotation>
-					<ImageFiles>
-						<ImageResourceReference>
-							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
-							<ClassName><![CDATA[image9.png]]></ClassName>
-						</ImageResourceReference>
-					</ImageFiles>
-					<OriginalSize>false</OriginalSize>
-				</Image>
-				<Image>
-					<Id>1589181810256</Id>
-					<Name><![CDATA[image6]]></Name>
-					<X>-118</X><Y>190</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
-if (menuSupplyOpen.isVisible()){
-	supplyMenuOnOff = true;
-}
-else{
-	supplyMenuOnOff = false;
-}
-]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Width>45</Width>
-					<Height>45</Height>
-					<Rotation>0.0</Rotation>
-					<ImageFiles>
-						<ImageResourceReference>
-							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
-							<ClassName><![CDATA[image8.png]]></ClassName>
-						</ImageResourceReference>
-					</ImageFiles>
-					<OriginalSize>false</OriginalSize>
-				</Image>
-				<Image>
-					<Id>1589181918234</Id>
-					<Name><![CDATA[image]]></Name>
-					<X>-118</X><Y>2</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<OnClickCode><![CDATA[menuViewOpen.setVisible(!menuViewOpen.isVisible());
-if (menuViewOpen.isVisible()){
-	settingsMenuOnOff = true;
-}
-else{
-	settingsMenuOnOff = false;
-}
-
-]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Width>45</Width>
-					<Height>45</Height>
-					<Rotation>0.0</Rotation>
-					<ImageFiles>
-						<ImageResourceReference>
-							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
-							<ClassName><![CDATA[image10.png]]></ClassName>
-						</ImageResourceReference>
-					</ImageFiles>
-					<OriginalSize>false</OriginalSize>
-				</Image>
-				<Image>
-					<Id>1589182008681</Id>
-					<Name><![CDATA[image7]]></Name>
-					<X>-120</X><Y>670</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
-if (menuSupplyOpen.isVisible()){
-	supplyMenuOnOff = true;
-}
-else{
-	supplyMenuOnOff = false;
-}
-]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Width>45</Width>
-					<Height>45</Height>
-					<Rotation>0.0</Rotation>
-					<ImageFiles>
-						<ImageResourceReference>
-							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
-							<ClassName><![CDATA[image7.png]]></ClassName>
-						</ImageResourceReference>
-					</ImageFiles>
-					<OriginalSize>false</OriginalSize>
-				</Image>
-				<Text>
-					<Id>1585755829657</Id>
-					<Name><![CDATA[text7]]></Name>
-					<X>-52</X><Y>680</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Industry annual growth 
-rate]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>11</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-				<Text>
-					<Id>1585755896640</Id>
-					<Name><![CDATA[text8]]></Name>
-					<X>-52</X><Y>720</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Agriculture annual 
-growth rate]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>11</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-				<Text>
-					<Id>1585755975708</Id>
-					<Name><![CDATA[text9]]></Name>
-					<X>-52</X><Y>760</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Built environment 
-annual growth rate]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>11</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-				<Group>
-					<Id>1589182401184</Id>
-					<Name><![CDATA[buttonSupply3]]></Name>
-					<X>390</X><Y>30</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
-					<OnClickCode><![CDATA[areaProduction.navigateTo();]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-				<RoundedRectangle>
-					<Id>1589182401186</Id>
-					<Name><![CDATA[roundRectangle14]]></Name>
-					<X>-80</X><Y>-20</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-16777216</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>160</Width>
-					<Height>30</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
-				<Text>
-					<Id>1589182401188</Id>
-					<Name><![CDATA[text34]]></Name>
-					<X>-50</X><Y>-10</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Production]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>10</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-			</Presentation>
-
-				</Group>
-				<RoundedRectangle>
-					<Id>1588707253609</Id>
-					<Name><![CDATA[roundRectangle3]]></Name>
-					<X>-60</X><Y>190</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-4144960</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>180</Width>
-					<Height>120</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
 				<Text>
 					<Id>1589184733648</Id>
 					<Name><![CDATA[text53]]></Name>
@@ -22331,119 +21834,6 @@ annual growth rate]]></Text>
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
-				<Image>
-					<Id>1589187811048</Id>
-					<Name><![CDATA[image1]]></Name>
-					<X>-120</X><Y>860</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
-if (menuSupplyOpen.isVisible()){
-	supplyMenuOnOff = true;
-}
-else{
-	supplyMenuOnOff = false;
-}]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Width>47</Width>
-					<Height>45</Height>
-					<Rotation>0.0</Rotation>
-					<ImageFiles>
-						<ImageResourceReference>
-							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
-							<ClassName><![CDATA[image11.png]]></ClassName>
-						</ImageResourceReference>
-					</ImageFiles>
-					<OriginalSize>false</OriginalSize>
-				</Image>
-				<Image>
-					<Id>1589188570791</Id>
-					<Name><![CDATA[image3]]></Name>
-					<X>-118</X><Y>410</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
-if (menuSupplyOpen.isVisible()){
-	supplyMenuOnOff = true;
-}
-else{
-	supplyMenuOnOff = false;
-}
-]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Width>47</Width>
-					<Height>45</Height>
-					<Rotation>0.0</Rotation>
-					<ImageFiles>
-						<ImageResourceReference>
-							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
-							<ClassName><![CDATA[image13.png]]></ClassName>
-						</ImageResourceReference>
-					</ImageFiles>
-					<OriginalSize>false</OriginalSize>
-				</Image>
-				<RoundedRectangle>
-					<Id>1589188620104</Id>
-					<Name><![CDATA[roundRectangle5]]></Name>
-					<X>-62</X><Y>410</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-4144960</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>180</Width>
-					<Height>75</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
-				<Image>
-					<Id>1589188820941</Id>
-					<Name><![CDATA[image4]]></Name>
-					<X>-118</X><Y>495</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
-if (menuSupplyOpen.isVisible()){
-	supplyMenuOnOff = true;
-}
-else{
-	supplyMenuOnOff = false;
-}
-]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Width>45</Width>
-					<Height>45</Height>
-					<Rotation>0.0</Rotation>
-					<ImageFiles>
-						<ImageResourceReference>
-							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
-							<ClassName><![CDATA[image14.png]]></ClassName>
-						</ImageResourceReference>
-					</ImageFiles>
-					<OriginalSize>false</OriginalSize>
-				</Image>
 				<Rectangle>
 					<Id>1589189232806</Id>
 					<Name><![CDATA[rectangle5]]></Name>
@@ -22815,69 +22205,6 @@ else{
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
-				<Group>
-					<Id>1589452550422</Id>
-					<Name><![CDATA[buttonSupply7]]></Name>
-					<X>570</X><Y>30</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
-					<OnClickCode><![CDATA[areaConsumption.navigateTo();]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-				<RoundedRectangle>
-					<Id>1589452550424</Id>
-					<Name><![CDATA[roundRectangle19]]></Name>
-					<X>-80</X><Y>-20</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-16777216</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>160</Width>
-					<Height>30</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
-				<Text>
-					<Id>1589452550426</Id>
-					<Name><![CDATA[text72]]></Name>
-					<X>-50</X><Y>-10</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Consumption]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>10</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-			</Presentation>
-
-				</Group>
 				<Rectangle>
 					<Id>1589452609079</Id>
 					<Name><![CDATA[rectangle24]]></Name>
@@ -24643,50 +23970,6 @@ else{
 					<FillColor>-1</FillColor>
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
-				<Text>
-					<Id>1589888215214</Id>
-					<Name><![CDATA[text15]]></Name>
-					<X>-50</X><Y>225</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Solar panels roof]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>10</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-				<Text>
-					<Id>1589888225976</Id>
-					<Name><![CDATA[text16]]></Name>
-					<X>-50</X><Y>270</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Solar panels field]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>10</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
 				<Rectangle>
 					<Id>1589961556682</Id>
 					<Name><![CDATA[rectangle3]]></Name>
@@ -24709,50 +23992,6 @@ else{
 					<FillColor>-1</FillColor>
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
-				<Text>
-					<Id>1589963087003</Id>
-					<Name><![CDATA[text29]]></Name>
-					<X>-50</X><Y>140</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Wind offshore]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>10</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-				<Text>
-					<Id>1589963109263</Id>
-					<Name><![CDATA[text30]]></Name>
-					<X>-50</X><Y>100</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Wind onshore]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>10</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
 				<Rectangle>
 					<Id>1589965084641</Id>
 					<Name><![CDATA[rectangle7]]></Name>
@@ -27005,7 +26244,7 @@ else{
 				<Group>
 					<Id>1592296915016</Id>
 					<Name><![CDATA[group1]]></Name>
-					<X>310</X><Y>130</Y>
+					<X>430</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27858,30 +27097,6 @@ else{
 			</Presentation>
 
 				</Group>
-				<RoundedRectangle>
-					<Id>1593076646093</Id>
-					<Name><![CDATA[roundRectangle8]]></Name>
-					<X>-60</X><Y>570</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-4144960</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>180</Width>
-					<Height>70</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
 				<Rectangle>
 					<Id>1593078683379</Id>
 					<Name><![CDATA[rectangle71]]></Name>
@@ -28250,132 +27465,6 @@ else{
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Scenario settings]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>10</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-			</Presentation>
-
-				</Group>
-				<Group>
-					<Id>1593089418322</Id>
-					<Name><![CDATA[buttonSupply40]]></Name>
-					<X>750</X><Y>30</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
-					<OnClickCode><![CDATA[areaScenarioSettings.navigateTo();]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-				<RoundedRectangle>
-					<Id>1593089418324</Id>
-					<Name><![CDATA[roundRectangle59]]></Name>
-					<X>-80</X><Y>-20</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-16777216</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>160</Width>
-					<Height>30</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
-				<Text>
-					<Id>1593089418326</Id>
-					<Name><![CDATA[text145]]></Name>
-					<X>-50</X><Y>-10</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Scenario settings]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>10</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-			</Presentation>
-
-				</Group>
-				<Group>
-					<Id>1593089828175</Id>
-					<Name><![CDATA[buttonSupply42]]></Name>
-					<X>930</X><Y>30</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
-					<OnClickCode><![CDATA[areaScenarioResults.navigateTo();]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-				<RoundedRectangle>
-					<Id>1593089828177</Id>
-					<Name><![CDATA[roundRectangle61]]></Name>
-					<X>-80</X><Y>-20</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-16777216</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>160</Width>
-					<Height>30</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
-				<Text>
-					<Id>1593089828179</Id>
-					<Name><![CDATA[text147]]></Name>
-					<X>-50</X><Y>-10</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Scenario results]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>10</Size>
@@ -29396,36 +28485,6 @@ else{
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
-				<Image>
-					<Id>1593595784479</Id>
-					<Name><![CDATA[image13]]></Name>
-					<X>-118</X><Y>570</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
-if (menuSupplyOpen.isVisible()){
-	supplyMenuOnOff = true;
-}
-else{
-	supplyMenuOnOff = false;
-}
-]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Width>44</Width>
-					<Height>44</Height>
-					<Rotation>0.0</Rotation>
-					<ImageFiles>
-						<ImageResourceReference>
-							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
-							<ClassName><![CDATA[Nuclear.png]]></ClassName>
-						</ImageResourceReference>
-					</ImageFiles>
-					<OriginalSize>false</OriginalSize>
-				</Image>
 				<EmbeddedObjectPresentation>
 					<Id>1593717557909</Id>
 					<Name><![CDATA[transformStationHVs_presentation]]></Name>
@@ -29681,282 +28740,6 @@ else{
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
-				<Group>
-					<Id>1597922128990</Id>
-					<Name><![CDATA[group5]]></Name>
-					<X>1640</X><Y>320</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-    			<PieChart>
-					<Id>1589180119142</Id>
-					<Name><![CDATA[pieChartInstalCap]]></Name>
-					<X>-240</X><Y>-147</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<AutoUpdate>false</AutoUpdate>
-					<OccurrenceAtTime>true</OccurrenceAtTime>
-					<OccurrenceDate>1589184000000</OccurrenceDate>
-					<OccurrenceTime Class="CodeUnitValue">
-						<Code><![CDATA[0]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
-					</OccurrenceTime>
-					<RecurrenceCode Class="CodeUnitValue">
-						<Code><![CDATA[1]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
-					</RecurrenceCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>470</Width>
-					<Height>290</Height>
-					<BackgroundColor/>
-					<BorderColor/>
-					<ChartArea>
-						<XOffset>0</XOffset>
-						<YOffset>0</YOffset>
-						<Width>300</Width>
-						<Height>290</Height>
-						<BorderColor/>
-						<GridColor>-12566464</GridColor>
-					</ChartArea>
-					<Legend>
-						<Place>EAST</Place>
-						<TextColor>-16777216</TextColor>
-						<Size>160</Size>
-					</Legend>
-					<Labels>
-						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
-						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
-						<TextColor>-12566464</TextColor>
-					</Labels>
-					<ShowLegend>true</ShowLegend>
-					<DataItem>
-					<Id>1703083179256</Id>
-					<Expression><![CDATA[instalCapOnshoreWindNLOperational*MWToGW]]></Expression>
-					<Color>-5247250</Color>
-						<Title><![CDATA[Wind onshore]]></Title>
-					</DataItem>
-					<DataItem>
-					<Id>1703083179257</Id>
-					<Expression><![CDATA[instalCapOffshoreWindNLOperational*MWToGW]]></Expression>
-					<Color>-4067088</Color>
-						<Title><![CDATA[Wind offshore]]></Title>
-					</DataItem>
-					<DataItem>
-					<Id>1703083179258</Id>
-					<Expression><![CDATA[instalCapSolarFieldNLOperational*MWToGW]]></Expression>
-					<Color>-791632</Color>
-						<Title><![CDATA[Solar field]]></Title>
-					</DataItem>
-					<DataItem>
-					<Id>1703083179259</Id>
-					<Expression><![CDATA[instalCapSolarRoofNLOperational*MWToGW]]></Expression>
-					<Color>-989556</Color>
-						<Title><![CDATA[Solar Roof]]></Title>
-					</DataItem>
-					<DataItem>
-					<Id>1703083179260</Id>
-					<Expression><![CDATA[instalCapCoalMan*MWToGW]]></Expression>
-					<Color>-4144960</Color>
-						<Title><![CDATA[Coal]]></Title>
-					</DataItem>
-					<DataItem>
-					<Id>1703083179261</Id>
-					<Expression><![CDATA[instalCapGasMan*MWToGW]]></Expression>
-					<Color>-6632142</Color>
-						<Title><![CDATA[Gas]]></Title>
-					</DataItem>
-					<DataItem>
-					<Id>1703083179262</Id>
-					<Expression><![CDATA[instalCapNuclearNL*MWToGW]]></Expression>
-					<Color>-65281</Color>
-						<Title><![CDATA[Nuclear]]></Title>
-					</DataItem>
-					<DataItem>
-					<Id>1703083179263</Id>
-					<Expression><![CDATA[sumWhere(windOffshoreSearchAreas, x -> x.gw, x -> x.active)]]></Expression>
-					<Color>-14774017</Color>
-						<Title><![CDATA[item]]></Title>
-					</DataItem>
-    			</PieChart>
-    			<PieChart>
-					<Id>1597919023684</Id>
-					<Name><![CDATA[chart1]]></Name>
-					<X>-195</X><Y>-100</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<AutoUpdate>true</AutoUpdate>
-					<OccurrenceAtTime>true</OccurrenceAtTime>
-					<OccurrenceDate>1597996800000</OccurrenceDate>
-					<OccurrenceTime Class="CodeUnitValue">
-						<Code><![CDATA[0]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
-					</OccurrenceTime>
-					<RecurrenceCode Class="CodeUnitValue">
-						<Code><![CDATA[1]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
-					</RecurrenceCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>207</Width>
-					<Height>210</Height>
-					<BackgroundColor/>
-					<BorderColor/>
-					<ChartArea>
-						<XOffset>0</XOffset>
-						<YOffset>0</YOffset>
-						<Width>207</Width>
-						<Height>210</Height>
-						<BorderColor/>
-						<GridColor>-12566464</GridColor>
-					</ChartArea>
-					<Legend>
-						<Place>SOUTH</Place>
-						<TextColor>-16777216</TextColor>
-						<Size>30</Size>
-					</Legend>
-					<Labels>
-						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
-						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
-						<TextColor>-12566464</TextColor>
-					</Labels>
-					<ShowLegend>false</ShowLegend>
-					<DataItem>
-					<Id>1703083179265</Id>
-					<Expression><![CDATA[whiteCirclePieChart]]></Expression>
-					<Color>-657924</Color>
-						<Title><![CDATA[item]]></Title>
-					</DataItem>
-    			</PieChart>
-			</Presentation>
-
-				</Group>
-				<Group>
-					<Id>1597922218923</Id>
-					<Name><![CDATA[group13]]></Name>
-					<X>1570</X><Y>270</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-				<Text>
-					<Id>1589183112935</Id>
-					<Name><![CDATA[text36]]></Name>
-					<X>-20</X><Y>20</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Total]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>24</Size>
-						<Style>1</Style>
-					</Font>
-					<Alignment>CENTER</Alignment>
-				</Text>
-				<Group>
-					<Id>1597922162766</Id>
-					<Name><![CDATA[group11]]></Name>
-					<X>-30</X><Y>85</Y>
-					<Label><X>24.483</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-				<Text>
-					<Id>1589183083619</Id>
-					<Name><![CDATA[text35]]></Name>
-					<X>-48.966</X><Y>-24.167</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[text]]></Text>
-					<TextCode><![CDATA[totalInstalCapSupply*MWToGW + sumWhere(windOffshoreSearchAreas, x -> x.gw, x -> x.active)]]></TextCode>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>26</Size>
-						<Style>1</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-			</Presentation>
-
-				</Group>
-				<Group>
-					<Id>1597922188325</Id>
-					<Name><![CDATA[group12]]></Name>
-					<X>100</X><Y>-114</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-				<Text>
-					<Id>1589183132713</Id>
-					<Name><![CDATA[text38]]></Name>
-					<X>-80</X><Y>174</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[GW]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>26</Size>
-						<Style>1</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
-			</Presentation>
-
-				</Group>
-			</Presentation>
-
-				</Group>
 				<Text>
 					<Id>1597922372835</Id>
 					<Name><![CDATA[text169]]></Name>
@@ -31162,272 +29945,6 @@ else{
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
-				<Control Type="EditBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1585579220682</Id>
-					<Name><![CDATA[Energy_Groth_Industry]]></Name>
-					<X>68</X><Y>685</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="40" Height="20">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<FillColor/>
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<DefaultValueCode><![CDATA[2]]></DefaultValueCode>
-						<LinkTo>true</LinkTo>
-						<Link>industryEnergyGrowthAnnual</Link>
-					</ExtendedProperties>
-				</Control>
-				<Control Type="EditBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1585755857981</Id>
-					<Name><![CDATA[Energy_Groth_Agriculture]]></Name>
-					<X>68</X><Y>725</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="40" Height="20">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<FillColor/>
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<DefaultValueCode><![CDATA[2]]></DefaultValueCode>
-						<LinkTo>true</LinkTo>
-						<Link>agricultureEnergyGrowthAnnual</Link>
-					</ExtendedProperties>
-				</Control>
-				<Control Type="EditBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1585755939128</Id>
-					<Name><![CDATA[Energy_Groth_BuiltEnviron]]></Name>
-					<X>68</X><Y>765</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="40" Height="20">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<FillColor/>
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<DefaultValueCode><![CDATA[2]]></DefaultValueCode>
-						<LinkTo>true</LinkTo>
-						<Link>builtEnvironEnergyGrowthAnnual</Link>
-					</ExtendedProperties>
-				</Control>
-				<Control Type="CheckBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1589186658734</Id>
-					<Name><![CDATA[checkboxWindVisibility]]></Name>
-					<X>-50</X><Y>65</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Visible]]></LabelText>
-						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
-						<LinkTo>true</LinkTo>
-						<Link>visibleWind</Link>
-	 				</ExtendedProperties>
-				</Control>
-				<Control Type="CheckBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1589187494779</Id>
-					<Name><![CDATA[checkboxSolarVisibility]]></Name>
-					<X>-50</X><Y>190</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Visible]]></LabelText>
-						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
-						<LinkTo>true</LinkTo>
-						<Link>visibleSolar</Link>
-	 				</ExtendedProperties>
-				</Control>
-				<Control Type="CheckBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1589187958077</Id>
-					<Name><![CDATA[checkboxSolarVisibility1]]></Name>
-					<X>-50</X><Y>960</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Visible HV network]]></LabelText>
-						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
-						<LinkTo>true</LinkTo>
-						<Link>visibleHVNetwork</Link>
-	 				</ExtendedProperties>
-				</Control>
-				<Control Type="CheckBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1589188837642</Id>
-					<Name><![CDATA[checkboxCoalVisibility1]]></Name>
-					<X>-52</X><Y>490</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Visible]]></LabelText>
-						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
-						<LinkTo>true</LinkTo>
-						<Link>visibleGas</Link>
-	 				</ExtendedProperties>
-				</Control>
-				<Control Type="CheckBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1589189384267</Id>
-					<Name><![CDATA[checkboxSolarVisibility2]]></Name>
-					<X>-50</X><Y>870</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Visible demand graphs]]></LabelText>
-						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
-						<LinkTo>true</LinkTo>
-						<Link>visibleGraphsDemand</Link>
-	 				</ExtendedProperties>
-				</Control>
-				<Control Type="Slider">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1589206502812</Id>
-					<Name><![CDATA[sliderWindOffshoreCap]]></Name>
-					<X>-50</X><Y>150</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-						<ActionCode><![CDATA[manualSetting = true]]></ActionCode>
-					</BasicProperties>
-					<ExtendedProperties>
-						<DefaultValueCode><![CDATA[instalCapWindNL]]></DefaultValueCode>
-						<Orientation>HORIZONTAL</Orientation>
-						<MinValue><![CDATA[0]]></MinValue>
-						<MaxValue><![CDATA[instalCapWindMaxOffshoreMw]]></MaxValue>
-						<LinkTo>true</LinkTo>
-						<Link>sliderInstalCapWindOffshore</Link>
-					</ExtendedProperties>
-				</Control>
-				<Control Type="Slider">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1589371427261</Id>
-					<Name><![CDATA[sliderGasCap]]></Name>
-					<X>-52</X><Y>530</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-						<ActionCode><![CDATA[manualSetting = true]]></ActionCode>
-					</BasicProperties>
-					<ExtendedProperties>
-						<DefaultValueCode><![CDATA[instalCapWindNL]]></DefaultValueCode>
-						<Orientation>HORIZONTAL</Orientation>
-						<MinValue><![CDATA[0]]></MinValue>
-						<MaxValue><![CDATA[instalCapGasMax]]></MaxValue>
-						<LinkTo>true</LinkTo>
-						<Link>sliderInstalCapGas</Link>
-					</ExtendedProperties>
-				</Control>
-				<Control Type="CheckBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1589453412193</Id>
-					<Name><![CDATA[checkboxSolarVisibility3]]></Name>
-					<X>-52</X><Y>410</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Visible]]></LabelText>
-						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
-						<LinkTo>true</LinkTo>
-						<Link>visibleCoal</Link>
-	 				</ExtendedProperties>
-				</Control>
 				<Control Type="ComboBox">
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1589460917964</Id>
@@ -31530,106 +30047,6 @@ else{
 						<LinkTo>true</LinkTo>
 						<Link>imbalanceCoveredByGas</Link>
 	 				</ExtendedProperties>
-				</Control>
-				<Control Type="Slider">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1589541778072</Id>
-					<Name><![CDATA[sliderSolarRoofCap]]></Name>
-					<X>-50</X><Y>235</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-						<ActionCode><![CDATA[manualSetting = true]]></ActionCode>
-					</BasicProperties>
-					<ExtendedProperties>
-						<DefaultValueCode><![CDATA[3000]]></DefaultValueCode>
-						<Orientation>HORIZONTAL</Orientation>
-						<MinValue><![CDATA[0]]></MinValue>
-						<MaxValue><![CDATA[potentialInstalCapRoof]]></MaxValue>
-						<LinkTo>true</LinkTo>
-						<Link>sliderInstalCapSolarRoof</Link>
-					</ExtendedProperties>
-				</Control>
-				<Control Type="Slider">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1589888191955</Id>
-					<Name><![CDATA[sliderSolarFieldCap]]></Name>
-					<X>-50</X><Y>280</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-						<ActionCode><![CDATA[manualSetting = true]]></ActionCode>
-					</BasicProperties>
-					<ExtendedProperties>
-						<DefaultValueCode><![CDATA[3000]]></DefaultValueCode>
-						<Orientation>HORIZONTAL</Orientation>
-						<MinValue><![CDATA[0]]></MinValue>
-						<MaxValue><![CDATA[instalCapSolarMaxFieldMw]]></MaxValue>
-						<LinkTo>true</LinkTo>
-						<Link>sliderInstalCapSolarField</Link>
-					</ExtendedProperties>
-				</Control>
-				<Control Type="Slider">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1589963103946</Id>
-					<Name><![CDATA[sliderWindOnshoreCap]]></Name>
-					<X>-50</X><Y>110</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-						<ActionCode><![CDATA[manualSetting = true;]]></ActionCode>
-					</BasicProperties>
-					<ExtendedProperties>
-						<DefaultValueCode><![CDATA[instalCapWindNL]]></DefaultValueCode>
-						<Orientation>HORIZONTAL</Orientation>
-						<MinValue><![CDATA[0]]></MinValue>
-						<MaxValue><![CDATA[instalCapWindMaxOnshoreMw]]></MaxValue>
-						<LinkTo>true</LinkTo>
-						<Link>sliderInstalCapWindOnshore</Link>
-					</ExtendedProperties>
-				</Control>
-				<Control Type="Slider">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1590494078503</Id>
-					<Name><![CDATA[sliderCoalCap]]></Name>
-					<X>-50</X><Y>440</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-						<ActionCode><![CDATA[manualSetting = true]]></ActionCode>
-					</BasicProperties>
-					<ExtendedProperties>
-						<DefaultValueCode><![CDATA[instalCapWindNL]]></DefaultValueCode>
-						<Orientation>HORIZONTAL</Orientation>
-						<MinValue><![CDATA[0]]></MinValue>
-						<MaxValue><![CDATA[instalCapCoalMax]]></MaxValue>
-						<LinkTo>true</LinkTo>
-						<Link>sliderInstalCapCoal</Link>
-					</ExtendedProperties>
 				</Control>
 				<Control Type="Button">
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
@@ -34341,55 +32758,6 @@ else{
 						<LinkTo>false</LinkTo>
 					</ExtendedProperties>
 				</Control>
-				<Control Type="CheckBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1593076646095</Id>
-					<Name><![CDATA[checkboxNuclearVisibility]]></Name>
-					<X>-50</X><Y>570</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Visible]]></LabelText>
-						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
-						<LinkTo>true</LinkTo>
-						<Link>visibleNuclear</Link>
-	 				</ExtendedProperties>
-				</Control>
-				<Control Type="Slider">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1593076646097</Id>
-					<Name><![CDATA[sliderNuclearCap]]></Name>
-					<X>-50</X><Y>610</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-						<ActionCode><![CDATA[manualSetting = true]]></ActionCode>
-					</BasicProperties>
-					<ExtendedProperties>
-						<DefaultValueCode><![CDATA[instalCapWindNL]]></DefaultValueCode>
-						<Orientation>HORIZONTAL</Orientation>
-						<MinValue><![CDATA[0]]></MinValue>
-						<MaxValue><![CDATA[instalCapNuclearMax]]></MaxValue>
-						<LinkTo>true</LinkTo>
-						<Link>sliderInstalCapNuclear</Link>
-					</ExtendedProperties>
-				</Control>
 				<Control Type="ComboBox">
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1593591344101</Id>
@@ -34505,54 +32873,6 @@ if(value.equals("User defined")){
 						<Link>scenarioSetting</Link>
 					</ExtendedProperties>
 				</Control>
-				<Control Type="CheckBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1593764105518</Id>
-					<Name><![CDATA[checkboxSolarVisibility4]]></Name>
-					<X>-50</X><Y>900</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Visible supply graphs]]></LabelText>
-						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
-						<LinkTo>true</LinkTo>
-						<Link>visibleGraphsSupply</Link>
-	 				</ExtendedProperties>
-				</Control>
-				<Control Type="CheckBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1593764652683</Id>
-					<Name><![CDATA[checkboxSolarVisibility5]]></Name>
-					<X>-50</X><Y>930</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="160" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Visible mismatch graphs]]></LabelText>
-						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
-						<LinkTo>true</LinkTo>
-						<Link>visibleGraphsMismatch</Link>
-	 				</ExtendedProperties>
-				</Control>
 				<Control Type="EditBox">
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1594106546069</Id>
@@ -34645,29 +32965,6 @@ pyCommunicator.run(pyCode1);]]></ActionCode>
 						<LabelText><![CDATA[Run pandapower]]></LabelText>
 					</ExtendedProperties>
 				</Control>
-				<Control Type="CheckBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1595321750944</Id>
-					<Name><![CDATA[checkbox1]]></Name>
-					<X>-50</X><Y>990</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="220" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Congestion network]]></LabelText>
-						<LinkTo>true</LinkTo>
-						<Link>CongestionPandaPower</Link>
-	 				</ExtendedProperties>
-				</Control>
 				<Control Type="EditBox">
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1597224225159</Id>
@@ -34689,29 +32986,6 @@ pyCommunicator.run(pyCode1);]]></ActionCode>
 						<LinkTo>true</LinkTo>
 						<Link>landSurfaceWindTurbine_hm2</Link>
 					</ExtendedProperties>
-				</Control>
-				<Control Type="CheckBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1598355948300</Id>
-					<Name><![CDATA[checkbox2]]></Name>
-					<X>-50</X><Y>1020</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="220" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Batteries]]></LabelText>
-						<LinkTo>true</LinkTo>
-						<Link>batteriesONOFF</Link>
-	 				</ExtendedProperties>
 				</Control>
 				<Control Type="Slider">
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
@@ -34828,29 +33102,6 @@ pyCommunicator.run(pyCode1);]]></ActionCode>
 						<LinkTo>true</LinkTo>
 						<Link>powerDensityOffshoreWindPark_MW_km2</Link>
 					</ExtendedProperties>
-				</Control>
-				<Control Type="CheckBox">
-				 	<EmbeddedIcon>false</EmbeddedIcon>				
-					<Id>1598877894991</Id>
-					<Name><![CDATA[checkbox4]]></Name>
-					<X>-50</X><Y>1050</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<BasicProperties Width="220" Height="30">
-                        <EmbeddedIcon>false</EmbeddedIcon>	
-						<TextColor/>
-						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
-						<Enabled>true</Enabled>
-					</BasicProperties>
-					<ExtendedProperties>
-						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Show potential]]></LabelText>
-						<LinkTo>true</LinkTo>
-						<Link>showPotential</Link>
-	 				</ExtendedProperties>
 				</Control>
 				<Control Type="Button">
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
@@ -39469,54 +37720,10 @@ pyCommunicator.run(pyCode1);]]></ActionCode>
 					<Latitude>52.39180076170877</Latitude>
 					<Longitude>4.474370537824067</Longitude>
 				</EmbeddedObjectPresentation>
-				<Group>
-					<Id>1622026249742</Id>
-					<Name><![CDATA[buttonSupply58]]></Name>
-					<X>1260</X><Y>30</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
-					<OnClickCode><![CDATA[if (zoekgebiedenGroningen.isVisible() == true){
-	zoekgebiedenGroningen.setVisible(false);
-}
-else{
-	zoekgebiedenGroningen.setVisible(true);
-}]]></OnClickCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-				<RoundedRectangle>
-					<Id>1622026249744</Id>
-					<Name><![CDATA[roundRectangle79]]></Name>
-					<X>-130</X><Y>-20</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-16777216</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>210</Width>
-					<Height>30</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
 				<Text>
-					<Id>1622026249746</Id>
-					<Name><![CDATA[text199]]></Name>
-					<X>-110</X><Y>-10</Y>
+					<Id>1622027004057</Id>
+					<Name><![CDATA[text252]]></Name>
+					<X>1380</X><Y>410</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -39526,21 +37733,200 @@ else{
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[Scenario's aanlanding Groningen]]></Text>
+					<Text><![CDATA[Electricity generation Groningen (MW)]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
-						<Size>10</Size>
+						<Size>20</Size>
 						<Style>0</Style>
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
+				<Text>
+					<Id>1622027004074</Id>
+					<Name><![CDATA[text253]]></Name>
+					<X>1390</X><Y>710</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Electricity demand Gronginen (MW)]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>20</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Group>
+					<Id>1597922128990</Id>
+					<Name><![CDATA[group5]]></Name>
+					<X>1640</X><Y>320</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+    			<PieChart>
+					<Id>1589180119142</Id>
+					<Name><![CDATA[pieChartInstalCap]]></Name>
+					<X>-240</X><Y>-177</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>false</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1589184000000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>390</Width>
+					<Height>217</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>0</XOffset>
+						<YOffset>0</YOffset>
+						<Width>220</Width>
+						<Height>217</Height>
+						<BorderColor/>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>EAST</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>160</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<DataItem>
+					<Id>1703083179256</Id>
+					<Expression><![CDATA[instalCapOnshoreWindNLOperational*MWToGW]]></Expression>
+					<Color>-5247250</Color>
+						<Title><![CDATA[Wind onshore]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1703083179257</Id>
+					<Expression><![CDATA[instalCapOffshoreWindNLOperational*MWToGW]]></Expression>
+					<Color>-4067088</Color>
+						<Title><![CDATA[Wind offshore]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1703083179258</Id>
+					<Expression><![CDATA[instalCapSolarFieldNLOperational*MWToGW]]></Expression>
+					<Color>-791632</Color>
+						<Title><![CDATA[Solar field]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1703083179259</Id>
+					<Expression><![CDATA[instalCapSolarRoofNLOperational*MWToGW]]></Expression>
+					<Color>-989556</Color>
+						<Title><![CDATA[Solar Roof]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1703083179260</Id>
+					<Expression><![CDATA[instalCapCoalMan*MWToGW]]></Expression>
+					<Color>-4144960</Color>
+						<Title><![CDATA[Coal]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1703083179261</Id>
+					<Expression><![CDATA[instalCapGasMan*MWToGW]]></Expression>
+					<Color>-6632142</Color>
+						<Title><![CDATA[Gas]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1703083179262</Id>
+					<Expression><![CDATA[instalCapNuclearNL*MWToGW]]></Expression>
+					<Color>-65281</Color>
+						<Title><![CDATA[Nuclear]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1703083179263</Id>
+					<Expression><![CDATA[sumWhere(windOffshoreSearchAreas, x -> x.gw, x -> x.active)]]></Expression>
+					<Color>-14774017</Color>
+						<Title><![CDATA[item]]></Title>
+					</DataItem>
+    			</PieChart>
+    			<PieChart>
+					<Id>1597919023684</Id>
+					<Name><![CDATA[chart1]]></Name>
+					<X>-205</X><Y>-140</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1597996800000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>150</Width>
+					<Height>150</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>0</XOffset>
+						<YOffset>0</YOffset>
+						<Width>150</Width>
+						<Height>150</Height>
+						<BorderColor/>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>30</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>false</ShowLegend>
+					<DataItem>
+					<Id>1703083179265</Id>
+					<Expression><![CDATA[whiteCirclePieChart]]></Expression>
+					<Color>-657924</Color>
+						<Title><![CDATA[item]]></Title>
+					</DataItem>
+    			</PieChart>
 			</Presentation>
 
 				</Group>
     			<TimeStackChart>
 					<Id>1622027004052</Id>
 					<Name><![CDATA[provElectricitySupplyGraphHourly]]></Name>
-					<X>1380</X><Y>560</Y>
+					<X>1380</X><Y>440</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -39655,31 +38041,10 @@ else{
 					<VerScaleType>AUTO</VerScaleType>
 					<LabelFormat>HH_mm</LabelFormat>
     			</TimeStackChart>
-				<Text>
-					<Id>1622027004057</Id>
-					<Name><![CDATA[text252]]></Name>
-					<X>1380</X><Y>530</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<Color>-16777216</Color>
-					<Text><![CDATA[Electricity generation Groningen (MW)]]></Text>
-					<Font>
-						<Name>SansSerif</Name>
-						<Size>20</Size>
-						<Style>0</Style>
-					</Font>
-					<Alignment>LEFT</Alignment>
-				</Text>
     			<TimeStackChart>
 					<Id>1622027004067</Id>
 					<Name><![CDATA[electricityDemandGraphHourlyGroningen]]></Name>
-					<X>1380</X><Y>840</Y>
+					<X>1380</X><Y>720</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -39778,10 +38143,49 @@ else{
 					<VerScaleType>AUTO</VerScaleType>
 					<LabelFormat>HH_mm</LabelFormat>
     			</TimeStackChart>
+				<Group>
+					<Id>1588708432798</Id>
+					<Name><![CDATA[buttonSupply]]></Name>
+					<X>325</X><Y>30</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
+					<OnClickCode><![CDATA[areaSupplyDemand.navigateTo();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<RoundedRectangle>
+					<Id>1588708392060</Id>
+					<Name><![CDATA[roundRectangle9]]></Name>
+					<X>-80</X><Y>-20</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>160</Width>
+					<Height>30</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
 				<Text>
-					<Id>1622027004074</Id>
-					<Name><![CDATA[text253]]></Name>
-					<X>1390</X><Y>830</Y>
+					<Id>1588708400794</Id>
+					<Name><![CDATA[text27]]></Name>
+					<X>-50</X><Y>-10</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -39791,14 +38195,431 @@ else{
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[Electricity demand Gronginen (MW)]]></Text>
+					<Text><![CDATA[Supply & Demand]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
-						<Size>20</Size>
+						<Size>10</Size>
 						<Style>0</Style>
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
+			</Presentation>
+
+				</Group>
+				<Group>
+					<Id>1588710007144</Id>
+					<Name><![CDATA[buttonMain1]]></Name>
+					<X>150</X><Y>30</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
+					<OnClickCode><![CDATA[areaMain.navigateTo();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<RoundedRectangle>
+					<Id>1588710007146</Id>
+					<Name><![CDATA[roundRectangle13]]></Name>
+					<X>-80</X><Y>-20</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-1778384896</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>160</Width>
+					<Height>30</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1761607681</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Text>
+					<Id>1588710007148</Id>
+					<Name><![CDATA[text31]]></Name>
+					<X>-10</X><Y>-10</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-1778384896</Color>
+					<Text><![CDATA[Main]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+				</Group>
+				<Image>
+					<Id>1589181918234</Id>
+					<Name><![CDATA[image]]></Name>
+					<X>2</X><Y>2</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<OnClickCode><![CDATA[menuViewOpen.setVisible(!menuViewOpen.isVisible());
+if (menuViewOpen.isVisible()){
+	settingsMenuOnOff = true;
+}
+else{
+	settingsMenuOnOff = false;
+}
+
+]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Width>45</Width>
+					<Height>45</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageResourceReference>
+							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
+							<ClassName><![CDATA[image10.png]]></ClassName>
+						</ImageResourceReference>
+					</ImageFiles>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+				<Group>
+					<Id>1589182401184</Id>
+					<Name><![CDATA[buttonSupply3]]></Name>
+					<X>510</X><Y>30</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
+					<OnClickCode><![CDATA[areaProduction.navigateTo();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<RoundedRectangle>
+					<Id>1589182401186</Id>
+					<Name><![CDATA[roundRectangle14]]></Name>
+					<X>-80</X><Y>-20</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>160</Width>
+					<Height>30</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Text>
+					<Id>1589182401188</Id>
+					<Name><![CDATA[text34]]></Name>
+					<X>-50</X><Y>-10</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Production]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+				</Group>
+				<Group>
+					<Id>1589452550422</Id>
+					<Name><![CDATA[buttonSupply7]]></Name>
+					<X>690</X><Y>30</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
+					<OnClickCode><![CDATA[areaConsumption.navigateTo();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<RoundedRectangle>
+					<Id>1589452550424</Id>
+					<Name><![CDATA[roundRectangle19]]></Name>
+					<X>-80</X><Y>-20</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>160</Width>
+					<Height>30</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Text>
+					<Id>1589452550426</Id>
+					<Name><![CDATA[text72]]></Name>
+					<X>-50</X><Y>-10</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Consumption]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+				</Group>
+				<Group>
+					<Id>1593089418322</Id>
+					<Name><![CDATA[buttonSupply40]]></Name>
+					<X>870</X><Y>30</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
+					<OnClickCode><![CDATA[areaScenarioSettings.navigateTo();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<RoundedRectangle>
+					<Id>1593089418324</Id>
+					<Name><![CDATA[roundRectangle59]]></Name>
+					<X>-80</X><Y>-20</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>160</Width>
+					<Height>30</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Text>
+					<Id>1593089418326</Id>
+					<Name><![CDATA[text145]]></Name>
+					<X>-50</X><Y>-10</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Scenario settings]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+				</Group>
+				<Group>
+					<Id>1593089828175</Id>
+					<Name><![CDATA[buttonSupply42]]></Name>
+					<X>1050</X><Y>30</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
+					<OnClickCode><![CDATA[areaScenarioResults.navigateTo();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<RoundedRectangle>
+					<Id>1593089828177</Id>
+					<Name><![CDATA[roundRectangle61]]></Name>
+					<X>-80</X><Y>-20</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>160</Width>
+					<Height>30</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Text>
+					<Id>1593089828179</Id>
+					<Name><![CDATA[text147]]></Name>
+					<X>-50</X><Y>-10</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Scenario results]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+				</Group>
+				<Group>
+					<Id>1622026249742</Id>
+					<Name><![CDATA[buttonSupply58]]></Name>
+					<X>1260</X><Y>30</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[settingsMenuOnOff]]></VisibleCode>
+					<OnClickCode><![CDATA[if (zoekgebiedenGroningen.isVisible() == true){
+	zoekgebiedenGroningen.setVisible(false);
+}
+else{
+	zoekgebiedenGroningen.setVisible(true);
+}]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<RoundedRectangle>
+					<Id>1622026249744</Id>
+					<Name><![CDATA[roundRectangle79]]></Name>
+					<X>-130</X><Y>-20</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>210</Width>
+					<Height>30</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Text>
+					<Id>1622026249746</Id>
+					<Name><![CDATA[text199]]></Name>
+					<X>-110</X><Y>-10</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Scenario's aanlanding Groningen]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+				</Group>
 				<Group>
 					<Id>1622026291906</Id>
 					<Name><![CDATA[zoekgebiedenGroningen]]></Name>
@@ -40604,6 +39425,1187 @@ else {
 			</Presentation>
 
 				</Group>
+				<RoundedRectangle>
+					<Id>1588707126173</Id>
+					<Name><![CDATA[roundRectangle]]></Name>
+					<X>60</X><Y>58</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-4144960</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>180</Width>
+					<Height>122</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<RoundedRectangle>
+					<Id>1588707234315</Id>
+					<Name><![CDATA[roundRectangle1]]></Name>
+					<X>58</X><Y>400</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-4144960</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>180</Width>
+					<Height>70</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<RoundedRectangle>
+					<Id>1588707237998</Id>
+					<Name><![CDATA[roundRectangle2]]></Name>
+					<X>58</X><Y>560</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-4144960</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>180</Width>
+					<Height>170</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<RoundedRectangle>
+					<Id>1588707256866</Id>
+					<Name><![CDATA[roundRectangle4]]></Name>
+					<X>58</X><Y>750</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-4144960</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>180</Width>
+					<Height>220</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Image>
+					<Id>1589181810256</Id>
+					<Name><![CDATA[image6]]></Name>
+					<X>2</X><Y>190</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
+if (menuSupplyOpen.isVisible()){
+	supplyMenuOnOff = true;
+}
+else{
+	supplyMenuOnOff = false;
+}
+]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Width>45</Width>
+					<Height>45</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageResourceReference>
+							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
+							<ClassName><![CDATA[image8.png]]></ClassName>
+						</ImageResourceReference>
+					</ImageFiles>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+				<Image>
+					<Id>1589182008681</Id>
+					<Name><![CDATA[image7]]></Name>
+					<X>0</X><Y>560</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
+if (menuSupplyOpen.isVisible()){
+	supplyMenuOnOff = true;
+}
+else{
+	supplyMenuOnOff = false;
+}
+]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Width>45</Width>
+					<Height>45</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageResourceReference>
+							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
+							<ClassName><![CDATA[image7.png]]></ClassName>
+						</ImageResourceReference>
+					</ImageFiles>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+				<Text>
+					<Id>1585755829657</Id>
+					<Name><![CDATA[text7]]></Name>
+					<X>68</X><Y>570</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Industry annual growth 
+rate]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>11</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1585755896640</Id>
+					<Name><![CDATA[text8]]></Name>
+					<X>68</X><Y>610</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Agriculture annual 
+growth rate]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>11</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1585755975708</Id>
+					<Name><![CDATA[text9]]></Name>
+					<X>68</X><Y>650</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Built environment 
+annual growth rate]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>11</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<RoundedRectangle>
+					<Id>1588707253609</Id>
+					<Name><![CDATA[roundRectangle3]]></Name>
+					<X>60</X><Y>190</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-4144960</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>180</Width>
+					<Height>120</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Image>
+					<Id>1589187811048</Id>
+					<Name><![CDATA[image1]]></Name>
+					<X>0</X><Y>750</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
+if (menuSupplyOpen.isVisible()){
+	supplyMenuOnOff = true;
+}
+else{
+	supplyMenuOnOff = false;
+}]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Width>47</Width>
+					<Height>45</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageResourceReference>
+							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
+							<ClassName><![CDATA[image11.png]]></ClassName>
+						</ImageResourceReference>
+					</ImageFiles>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+				<Image>
+					<Id>1589188570791</Id>
+					<Name><![CDATA[image3]]></Name>
+					<X>2</X><Y>320</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
+if (menuSupplyOpen.isVisible()){
+	supplyMenuOnOff = true;
+}
+else{
+	supplyMenuOnOff = false;
+}
+]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Width>47</Width>
+					<Height>45</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageResourceReference>
+							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
+							<ClassName><![CDATA[image13.png]]></ClassName>
+						</ImageResourceReference>
+					</ImageFiles>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+				<RoundedRectangle>
+					<Id>1589188620104</Id>
+					<Name><![CDATA[roundRectangle5]]></Name>
+					<X>58</X><Y>320</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-4144960</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>180</Width>
+					<Height>75</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Image>
+					<Id>1589188820941</Id>
+					<Name><![CDATA[image4]]></Name>
+					<X>2</X><Y>405</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
+if (menuSupplyOpen.isVisible()){
+	supplyMenuOnOff = true;
+}
+else{
+	supplyMenuOnOff = false;
+}
+]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Width>45</Width>
+					<Height>45</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageResourceReference>
+							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
+							<ClassName><![CDATA[image14.png]]></ClassName>
+						</ImageResourceReference>
+					</ImageFiles>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+				<Text>
+					<Id>1589888215214</Id>
+					<Name><![CDATA[text15]]></Name>
+					<X>70</X><Y>225</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Solar panels roof]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1589888225976</Id>
+					<Name><![CDATA[text16]]></Name>
+					<X>70</X><Y>270</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Solar panels field]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1589963087003</Id>
+					<Name><![CDATA[text29]]></Name>
+					<X>70</X><Y>140</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Wind offshore]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1589963109263</Id>
+					<Name><![CDATA[text30]]></Name>
+					<X>70</X><Y>100</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Wind onshore]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<RoundedRectangle>
+					<Id>1593076646093</Id>
+					<Name><![CDATA[roundRectangle8]]></Name>
+					<X>60</X><Y>480</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-4144960</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>180</Width>
+					<Height>70</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Image>
+					<Id>1593595784479</Id>
+					<Name><![CDATA[image13]]></Name>
+					<X>2</X><Y>480</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
+if (menuSupplyOpen.isVisible()){
+	supplyMenuOnOff = true;
+}
+else{
+	supplyMenuOnOff = false;
+}
+]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Width>44</Width>
+					<Height>44</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageResourceReference>
+							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
+							<ClassName><![CDATA[Nuclear.png]]></ClassName>
+						</ImageResourceReference>
+					</ImageFiles>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+				<Control Type="EditBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1585579220682</Id>
+					<Name><![CDATA[Energy_Groth_Industry]]></Name>
+					<X>188</X><Y>575</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="40" Height="20">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<FillColor/>
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<DefaultValueCode><![CDATA[2]]></DefaultValueCode>
+						<LinkTo>true</LinkTo>
+						<Link>industryEnergyGrowthAnnual</Link>
+					</ExtendedProperties>
+				</Control>
+				<Control Type="EditBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1585755857981</Id>
+					<Name><![CDATA[Energy_Groth_Agriculture]]></Name>
+					<X>188</X><Y>615</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="40" Height="20">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<FillColor/>
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<DefaultValueCode><![CDATA[2]]></DefaultValueCode>
+						<LinkTo>true</LinkTo>
+						<Link>agricultureEnergyGrowthAnnual</Link>
+					</ExtendedProperties>
+				</Control>
+				<Control Type="EditBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1585755939128</Id>
+					<Name><![CDATA[Energy_Groth_BuiltEnviron]]></Name>
+					<X>188</X><Y>655</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="40" Height="20">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<FillColor/>
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<DefaultValueCode><![CDATA[2]]></DefaultValueCode>
+						<LinkTo>true</LinkTo>
+						<Link>builtEnvironEnergyGrowthAnnual</Link>
+					</ExtendedProperties>
+				</Control>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1589187494779</Id>
+					<Name><![CDATA[checkboxSolarVisibility]]></Name>
+					<X>70</X><Y>190</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Visible]]></LabelText>
+						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
+						<LinkTo>true</LinkTo>
+						<Link>visibleSolar</Link>
+	 				</ExtendedProperties>
+				</Control>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1589187958077</Id>
+					<Name><![CDATA[checkboxSolarVisibility1]]></Name>
+					<X>70</X><Y>850</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Visible HV network]]></LabelText>
+						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
+						<LinkTo>true</LinkTo>
+						<Link>visibleHVNetwork</Link>
+	 				</ExtendedProperties>
+				</Control>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1589188837642</Id>
+					<Name><![CDATA[checkboxCoalVisibility1]]></Name>
+					<X>68</X><Y>400</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Visible]]></LabelText>
+						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
+						<LinkTo>true</LinkTo>
+						<Link>visibleGas</Link>
+	 				</ExtendedProperties>
+				</Control>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1589189384267</Id>
+					<Name><![CDATA[checkboxSolarVisibility2]]></Name>
+					<X>70</X><Y>760</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Visible demand graphs]]></LabelText>
+						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
+						<LinkTo>true</LinkTo>
+						<Link>visibleGraphsDemand</Link>
+	 				</ExtendedProperties>
+				</Control>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1589206502812</Id>
+					<Name><![CDATA[sliderWindOffshoreCap]]></Name>
+					<X>70</X><Y>150</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+						<ActionCode><![CDATA[manualSetting = true]]></ActionCode>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[instalCapWindNL]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[0]]></MinValue>
+						<MaxValue><![CDATA[instalCapWindMaxOffshoreMw]]></MaxValue>
+						<LinkTo>true</LinkTo>
+						<Link>sliderInstalCapWindOffshore</Link>
+					</ExtendedProperties>
+				</Control>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1589371427261</Id>
+					<Name><![CDATA[sliderGasCap]]></Name>
+					<X>68</X><Y>440</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+						<ActionCode><![CDATA[manualSetting = true]]></ActionCode>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[instalCapWindNL]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[0]]></MinValue>
+						<MaxValue><![CDATA[instalCapGasMax]]></MaxValue>
+						<LinkTo>true</LinkTo>
+						<Link>sliderInstalCapGas</Link>
+					</ExtendedProperties>
+				</Control>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1589453412193</Id>
+					<Name><![CDATA[checkboxSolarVisibility3]]></Name>
+					<X>68</X><Y>320</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Visible]]></LabelText>
+						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
+						<LinkTo>true</LinkTo>
+						<Link>visibleCoal</Link>
+	 				</ExtendedProperties>
+				</Control>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1589541778072</Id>
+					<Name><![CDATA[sliderSolarRoofCap]]></Name>
+					<X>70</X><Y>235</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+						<ActionCode><![CDATA[manualSetting = true]]></ActionCode>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[3000]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[0]]></MinValue>
+						<MaxValue><![CDATA[potentialInstalCapRoof]]></MaxValue>
+						<LinkTo>true</LinkTo>
+						<Link>sliderInstalCapSolarRoof</Link>
+					</ExtendedProperties>
+				</Control>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1589888191955</Id>
+					<Name><![CDATA[sliderSolarFieldCap]]></Name>
+					<X>70</X><Y>280</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+						<ActionCode><![CDATA[manualSetting = true]]></ActionCode>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[3000]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[0]]></MinValue>
+						<MaxValue><![CDATA[instalCapSolarMaxFieldMw]]></MaxValue>
+						<LinkTo>true</LinkTo>
+						<Link>sliderInstalCapSolarField</Link>
+					</ExtendedProperties>
+				</Control>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1590494078503</Id>
+					<Name><![CDATA[sliderCoalCap]]></Name>
+					<X>70</X><Y>350</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+						<ActionCode><![CDATA[manualSetting = true]]></ActionCode>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[instalCapWindNL]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[0]]></MinValue>
+						<MaxValue><![CDATA[instalCapCoalMax]]></MaxValue>
+						<LinkTo>true</LinkTo>
+						<Link>sliderInstalCapCoal</Link>
+					</ExtendedProperties>
+				</Control>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1593076646095</Id>
+					<Name><![CDATA[checkboxNuclearVisibility]]></Name>
+					<X>70</X><Y>480</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Visible]]></LabelText>
+						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
+						<LinkTo>true</LinkTo>
+						<Link>visibleNuclear</Link>
+	 				</ExtendedProperties>
+				</Control>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1593076646097</Id>
+					<Name><![CDATA[sliderNuclearCap]]></Name>
+					<X>70</X><Y>520</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+						<ActionCode><![CDATA[manualSetting = true]]></ActionCode>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[instalCapWindNL]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[0]]></MinValue>
+						<MaxValue><![CDATA[instalCapNuclearMax]]></MaxValue>
+						<LinkTo>true</LinkTo>
+						<Link>sliderInstalCapNuclear</Link>
+					</ExtendedProperties>
+				</Control>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1593764105518</Id>
+					<Name><![CDATA[checkboxSolarVisibility4]]></Name>
+					<X>70</X><Y>790</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Visible supply graphs]]></LabelText>
+						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
+						<LinkTo>true</LinkTo>
+						<Link>visibleGraphsSupply</Link>
+	 				</ExtendedProperties>
+				</Control>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1593764652683</Id>
+					<Name><![CDATA[checkboxSolarVisibility5]]></Name>
+					<X>70</X><Y>820</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Visible mismatch graphs]]></LabelText>
+						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
+						<LinkTo>true</LinkTo>
+						<Link>visibleGraphsMismatch</Link>
+	 				</ExtendedProperties>
+				</Control>
+				<Image>
+					<Id>1589181761519</Id>
+					<Name><![CDATA[image2]]></Name>
+					<X>2</X><Y>59</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<OnClickCode><![CDATA[menuSupplyOpen.setVisible(!menuSupplyOpen.isVisible());
+if (menuSupplyOpen.isVisible()){
+	supplyMenuOnOff = true;
+}
+else{
+	supplyMenuOnOff = false;
+}
+]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Width>45</Width>
+					<Height>45</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageResourceReference>
+							<PackageName><![CDATA[zenmo_zero_netherlands]]></PackageName>
+							<ClassName><![CDATA[image9.png]]></ClassName>
+						</ImageResourceReference>
+					</ImageFiles>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1589186658734</Id>
+					<Name><![CDATA[checkboxWindVisibility]]></Name>
+					<X>70</X><Y>65</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Visible]]></LabelText>
+						<DefaultValueCode><![CDATA[true]]></DefaultValueCode>
+						<LinkTo>true</LinkTo>
+						<Link>visibleWind</Link>
+	 				</ExtendedProperties>
+				</Control>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1589963103946</Id>
+					<Name><![CDATA[sliderWindOnshoreCap]]></Name>
+					<X>70</X><Y>110</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="160" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+						<ActionCode><![CDATA[manualSetting = true;]]></ActionCode>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[instalCapWindNL]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[0]]></MinValue>
+						<MaxValue><![CDATA[instalCapWindMaxOnshoreMw]]></MaxValue>
+						<LinkTo>true</LinkTo>
+						<Link>sliderInstalCapWindOnshore</Link>
+					</ExtendedProperties>
+				</Control>
+				<Group>
+					<Id>1597922218923</Id>
+					<Name><![CDATA[group13]]></Name>
+					<X>1530</X><Y>190</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<Text>
+					<Id>1589183112935</Id>
+					<Name><![CDATA[text36]]></Name>
+					<X>-20</X><Y>20</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Total]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>20</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>CENTER</Alignment>
+				</Text>
+				<Group>
+					<Id>1597922162766</Id>
+					<Name><![CDATA[group11]]></Name>
+					<X>-30</X><Y>85</Y>
+					<Label><X>24.483</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<Text>
+					<Id>1589183083619</Id>
+					<Name><![CDATA[text35]]></Name>
+					<X>-48.966</X><Y>-24.167</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[text]]></Text>
+					<TextCode><![CDATA[totalInstalCapSupply*MWToGW + sumWhere(windOffshoreSearchAreas, x -> x.gw, x -> x.active)]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>20</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+				</Group>
+				<Group>
+					<Id>1597922188325</Id>
+					<Name><![CDATA[group12]]></Name>
+					<X>85</X><Y>-114</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<Text>
+					<Id>1589183132713</Id>
+					<Name><![CDATA[text38]]></Name>
+					<X>-80</X><Y>174</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[GW]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>20</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+				</Group>
+			</Presentation>
+
+				</Group>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1595321750944</Id>
+					<Name><![CDATA[checkbox1]]></Name>
+					<X>70</X><Y>880</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="220" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Congestion network]]></LabelText>
+						<LinkTo>true</LinkTo>
+						<Link>CongestionPandaPower</Link>
+	 				</ExtendedProperties>
+				</Control>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1598355948300</Id>
+					<Name><![CDATA[checkbox2]]></Name>
+					<X>70</X><Y>910</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="220" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Batteries]]></LabelText>
+						<LinkTo>true</LinkTo>
+						<Link>batteriesONOFF</Link>
+	 				</ExtendedProperties>
+				</Control>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1598877894991</Id>
+					<Name><![CDATA[checkbox4]]></Name>
+					<X>70</X><Y>940</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="220" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<VisibleCode><![CDATA[supplyMenuOnOff]]></VisibleCode>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Show potential]]></LabelText>
+						<LinkTo>true</LinkTo>
+						<Link>showPotential</Link>
+	 				</ExtendedProperties>
+				</Control>
 			</Presentation>
 
 				</Level>
@@ -40619,7 +40621,7 @@ else {
 					<ShowLabel>false</ShowLabel>
 					<Title><![CDATA[]]></Title>
 					<Width>1920</Width>
-					<Height>1080</Height>
+					<Height>980</Height>
 				</Area>
 				<Area>
 					<Id>1588682827869</Id>
@@ -40786,7 +40788,7 @@ else {
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1585209600000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -41515,7 +41517,7 @@ agricultureElDemandProvince = (demandElProfileAgriculture(main.time)*4) * electr
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1585382400000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -42201,7 +42203,7 @@ agricultureElDemandProvince = (demandElProfileAgriculture(main.time)*4) * electr
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1585382400000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -44076,7 +44078,7 @@ industryElDemandProvince = (demandElProfileIndustry(main.time)*4) * electricityD
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1585382400000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -46045,7 +46047,7 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1585814400000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -50386,7 +50388,7 @@ SOC=29866.577;// *0.8; //Cum cap 80% Cumulative_capacity; //]]></StartupCode>
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1586419200000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -53013,7 +53015,7 @@ SOClight = 2078.515;// * 0.8; //cumulativeCapacityCommercialLight; //]]></Startu
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1587456000000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -54319,7 +54321,7 @@ hourlyChargeCommercialLight += chargingLoadCommercialLight; //[kwh]
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1588406400000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -56142,7 +56144,7 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1588838400000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -57149,7 +57151,7 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1589443200000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -58024,7 +58026,7 @@ textName.setVisible(!textName.isVisible());]]></OnClickCode>
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1589529600000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -59042,7 +59044,7 @@ textCap.setVisible(!textCap.isVisible());]]></OnClickCode>
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1590652800000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -59572,7 +59574,7 @@ main.areaMain.navigateTo();]]></ActionCode>
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1591689600000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -59828,7 +59830,7 @@ main.areaMain.navigateTo();]]></ActionCode>
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1591948800000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -60142,7 +60144,7 @@ otherElDemandProvince = demandElProfileOther * electricityDemandProvinceOther * 
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1593244800000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -61033,6 +61035,7 @@ if(cableLoadPercentage>=100){
 				</GenericParameterValue>
 				<GenericParameterLabel><![CDATA[Generic parameter:]]></GenericParameterLabel>
 			</GenericParameter>
+			<Logging>false</Logging>
 			<FlowChartsUsage>ENTITY</FlowChartsUsage>
 			<SamplesToKeep>100</SamplesToKeep>
 			<LimitNumberOfArrayElements>false</LimitNumberOfArrayElements>
@@ -61085,7 +61088,7 @@ if(cableLoadPercentage>=100){
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1593763200000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -61812,6 +61815,7 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 				</GenericParameterValue>
 				<GenericParameterLabel><![CDATA[Generic parameter:]]></GenericParameterLabel>
 			</GenericParameter>
+			<Logging>false</Logging>
 			<FlowChartsUsage>ENTITY</FlowChartsUsage>
 			<SamplesToKeep>100</SamplesToKeep>
 			<LimitNumberOfArrayElements>false</LimitNumberOfArrayElements>
@@ -61864,7 +61868,7 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1597910400000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -63066,6 +63070,7 @@ if (scalingFactor>=1.3){
 				</GenericParameterValue>
 				<GenericParameterLabel><![CDATA[Generic parameter:]]></GenericParameterLabel>
 			</GenericParameter>
+			<Logging>false</Logging>
 			<FlowChartsUsage>ENTITY</FlowChartsUsage>
 			<SamplesToKeep>100</SamplesToKeep>
 			<LimitNumberOfArrayElements>false</LimitNumberOfArrayElements>
@@ -63118,7 +63123,7 @@ if (scalingFactor>=1.3){
 					<MCode><![CDATA[10]]></MCode>
 			</EnvironmentProperties>
 			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
+				<AutoCreate>false</AutoCreate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1618560000000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -64051,10 +64056,10 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 	<TimeAccuracy>1.0E-5</TimeAccuracy>
 	<Frame>
 		<Width>1920</Width>
-		<Height>1080</Height>
+		<Height>980</Height>
 	</Frame>
 	<Database>
-		<Logging>true</Logging>
+		<Logging>false</Logging>
 		<AutoExport>false</AutoExport>
 		<ShutdownCompact>true</ShutdownCompact>
 		<ImportSettings>
@@ -64480,18 +64485,18 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 		<Name><![CDATA[RunConfiguration]]></Name>
 		<MaximumMemory>8192</MaximumMemory>
 		<ModelTimeProperties>
-			<StopOption><![CDATA[Stop at specified time]]></StopOption>
-			<InitialDate><![CDATA[1585094400000]]></InitialDate>	
+			<StopOption><![CDATA[Stop at specified date]]></StopOption>
+			<InitialDate><![CDATA[1577836800000]]></InitialDate>	
 			<InitialTime><![CDATA[0.0]]></InitialTime>	
-			<FinalDate><![CDATA[1587772800000]]></FinalDate>	
-			<FinalTime><![CDATA[100.0]]></FinalTime>	
+			<FinalDate><![CDATA[2524608000000]]></FinalDate>	
+			<FinalTime><![CDATA[262992.0]]></FinalTime>	
 		</ModelTimeProperties>
 		<AnimationProperties>
 			<StopNever>true</StopNever>
 			<ExecutionMode>realTimeScaled</ExecutionMode>
-			<RealTimeScale>1.0</RealTimeScale>
+			<RealTimeScale>5.0</RealTimeScale>
 			<EnableZoomAndPanning>true</EnableZoomAndPanning>
-			<EnableDeveloperPanel>false</EnableDeveloperPanel>
+			<EnableDeveloperPanel>true</EnableDeveloperPanel>
 			<ShowDeveloperPanelOnStart>false</ShowDeveloperPanelOnStart>
 		</AnimationProperties>
 		<Inputs>		
@@ -64530,7 +64535,7 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-12490271</Color>
-					<Text><![CDATA[Zenmo-ZERO-Netherlands-JvdB]]></Text>
+					<Text><![CDATA[Zenmo-ZERO-Netherlands]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>24</Size>
@@ -64737,7 +64742,7 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 			<PresentationProperties>
 				<EnableZoomAndPanning>true</EnableZoomAndPanning>
 				<ExecutionMode><![CDATA[realTimeScaled]]></ExecutionMode>
-				<Title><![CDATA[Zenmo-ZERO-Netherlands-JvdB : Simulation]]></Title>	
+				<Title><![CDATA[Zenmo-ZERO-Netherlands: Simulation]]></Title>	
 				<EnableDeveloperPanel>true</EnableDeveloperPanel>
 				<ShowDeveloperPanelOnStart>false</ShowDeveloperPanelOnStart>
 				<RealTimeScale>5.0</RealTimeScale>
@@ -64778,7 +64783,7 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-12490271</Color>
-					<Text><![CDATA[Zenmo-ZERO-Netherlands-JvdB-June-2020]]></Text>
+					<Text><![CDATA[Zenmo-ZERO-Netherlands]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>24</Size>
@@ -64985,7 +64990,7 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 			<PresentationProperties>
 				<EnableZoomAndPanning>true</EnableZoomAndPanning>
 				<ExecutionMode><![CDATA[realTimeScaled]]></ExecutionMode>
-				<Title><![CDATA[Zenmo-ZERO-Netherlands-JvdB-June-2020 : Simulation2017]]></Title>	
+				<Title><![CDATA[Zenmo-ZERO-Netherlands: Simulation2017]]></Title>	
 				<EnableDeveloperPanel>true</EnableDeveloperPanel>
 				<ShowDeveloperPanelOnStart>false</ShowDeveloperPanelOnStart>
 				<RealTimeScale>5.0</RealTimeScale>
@@ -64997,7 +65002,7 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 				<FinalDate><![CDATA[1514851200000]]></FinalDate>	
 				<FinalTime><![CDATA[8784.0]]></FinalTime>	
 			</ModelTimeProperties>
-			<BypassInitialScreen>false</BypassInitialScreen>
+			<BypassInitialScreen>true</BypassInitialScreen>
 		</SimulationExperiment>
 		<!--   =========   Simulation Experiment   ========  -->
 		<SimulationExperiment ActiveObjectClassId="1585133588994">
@@ -65026,7 +65031,7 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-12490271</Color>
-					<Text><![CDATA[Zenmo-ZERO-Netherlands-JvdB-June-2020_V2]]></Text>
+					<Text><![CDATA[Zenmo-ZERO-Netherlands]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>24</Size>
@@ -65233,7 +65238,7 @@ showCapacity.setVisible(!showCapacity.isVisible());]]></OnClickCode>
 			<PresentationProperties>
 				<EnableZoomAndPanning>true</EnableZoomAndPanning>
 				<ExecutionMode><![CDATA[realTimeScaled]]></ExecutionMode>
-				<Title><![CDATA[Zenmo-ZERO-Netherlands-JvdB-June-2020_V2 : Simulation2030]]></Title>	
+				<Title><![CDATA[Zenmo-ZERO-Netherlands : Simulation2030]]></Title>	
 				<EnableDeveloperPanel>true</EnableDeveloperPanel>
 				<ShowDeveloperPanelOnStart>false</ShowDeveloperPanelOnStart>
 				<RealTimeScale>1.0</RealTimeScale>
@@ -65279,7 +65284,7 @@ chart0.addDataSet( root.totalDirectCO2EmissionsSupplyNLAnnualDB, format( root.di
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-12490271</Color>
-					<Text><![CDATA[Zenmo-ZERO-Netherlands-JvdB-June-2020_V4 : SensitivityAnalysis_DirectCO2Emissions]]></Text>
+					<Text><![CDATA[Zenmo-ZERO-Netherlands : SensitivityAnalysis_DirectCO2Emissions]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>24</Size>
@@ -65965,7 +65970,7 @@ chart0.addDataSet( root.totalDirectCO2EmissionsSupplyNLAnnualDB, format( root.di
 			</ModelTimeProperties>
 			<PresentationProperties>
 				<EnableZoomAndPanning>true</EnableZoomAndPanning>
-				<Title><![CDATA[Zenmo-ZERO-Netherlands-JvdB-June-2020_V4 : SensitivityAnalysis_DirectCO2Emissions]]></Title>
+				<Title><![CDATA[Zenmo-ZERO-Netherlands : SensitivityAnalysis_DirectCO2Emissions]]></Title>
 				<EnableDeveloperPanel>true</EnableDeveloperPanel>
 				<ShowDeveloperPanelOnStart>false</ShowDeveloperPanelOnStart>
 			</PresentationProperties>
@@ -66012,7 +66017,7 @@ chart0.addDataSet( root.totalDirectCO2EmissionsSupplyNLAnnualDB, format( root.di
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-12490271</Color>
-					<Text><![CDATA[Zenmo-ZERO-Netherlands-JvdB-June-2020_V4 : SensitivityAnalysis_DirectCO2EmissionsGas]]></Text>
+					<Text><![CDATA[Zenmo-ZERO-Netherlands : SensitivityAnalysis_DirectCO2EmissionsGas]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>24</Size>
@@ -66745,7 +66750,7 @@ root.exportResults();]]></AfterSimulationRunCode>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-12490271</Color>
-					<Text><![CDATA[Zenmo-ZERO-Netherlands-JvdB-June-2020_V4 : SensitivityAnalysis_MultipleScenarios]]></Text>
+					<Text><![CDATA[Zenmo-ZERO-Netherlands : SensitivityAnalysis_MultipleScenarios]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>24</Size>
